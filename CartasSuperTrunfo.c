@@ -34,7 +34,7 @@ int main() {
   printf("============================\n");
   printf("Digite uma letra entre A e H para representar o Estado: ");
   scanf("%c", &estado1);
-
+  
   printf("Digite o nome da cidade: ");
   scanf(" %s", cidade1);
 
