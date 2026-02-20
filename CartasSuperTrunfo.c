@@ -52,14 +52,6 @@ int main() {
   printf("                             \n ");
 
 
-  /*
-  // Área para entrada de dados carta 02
-  printf("=== Cadastro da Carta 01 === \n\n");
-  printf("Digite uma letra entre A e H para representar o Estado\n");
-  scanf("%c", &estado1);
-  */
-
-
   // Código para automatizar a geração do código, contatenando a letra escolhida pelo usuário e o número da carta
   sprintf(codigo1, "%c01", estado1);
   sprintf(codigo2, "%c02", estado2);
